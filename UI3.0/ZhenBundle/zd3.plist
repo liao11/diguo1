@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>zd32_domain_name</key>
+	<dict>
+		<key>zd32_returnupsBaseUrl</key>
+		<string>https://nap.mocgame.vn</string>
+		<key>zd32_baseUrl</key>
+		<string>https://sdk2.iosgate.muugame.com</string>
+		<key>zd32_backupsBaseUrl</key>
+		<string>https://upac.muugame.com</string>
+	</dict>
+	<key>zd32_aes_key</key>
+	<dict>
+		<key>zd32_AES128Key</key>
+		<string>keybc045c09f0181</string>
+		<key>zd32_AES128iv</key>
+		<string>0b79c392be2a636b</string>
+	</dict>
+	<key>zd32_url_path</key>
+	<dict>
+		<key>zd32_rcpAutoLoginPath</key>
+		<string>/login/autoLogin</string>
+		<key>zd32_rcpInitialPath</key>
+		<string>/main/init</string>
+		<key>zd32_rcpDeviceActivePath</key>
+		<string>/main/devAct</string>
+		<key>zd32_rcpNormalRegPath</key>
+		<string>/main/reg</string>
+		<key>zd32_rcpNormalLoginPath</key>
+		<string>/main/zcLogin</string>
+		<key>zd32_rcpQuickLoginPath</key>
+		<string>/main/ykLogin</string>
+		<key>zd32_rcpUserLogoutPath</key>
+		<string>/main/yhLogout</string>
+		<key>zd32_rcpUserDeletePath</key>
+		<string>/main/yhLogout</string>
+		<key>zd32_rcpRefreshTokenPath</key>
+		<string>/main/refTok</string>
+		<key>zd32_rcpFindAccountsPath</key>
+		<string>/main/czAccount</string>
+		<key>zd32_rcpVerifyEmailPath</key>
+		<string>/main/fsCode</string>
+		<key>zd32_rcpSendRegVerifyCodePath</key>
+		<string>/main/fsRegisterCode</string>
+		<key>zd32_rcpModifyPasswordPath</key>
+		<string>/main/xgPasswd</string>
+		<key>zd32_rcpBindVerifyCodePath</key>
+		<string>/main/bdEmail</string>
+		<key>zd32_rcpBindEmailPath</key>
+		<string>/main/yzEmail</string>
+		<key>zd32_rcpEnjoyGamePath</key>
+		<string>/main/jrGame</string>
+		<key>zd32_rcpCommitRoleLevelPath</key>
+		<string>/main/jsLevel</string>
+		<key>zd32_rcpHeartbeatPath</key>
+		<string>/main/heart</string>
+		<key>zd32_rcpThirdLoginPath</key>
+		<string>/main/dsfLogin</string>
+		<key>zd32_rcpOrderInfoPath</key>
+		<string>/main/ddInfo</string>
+		<key>zd32_rcpAppleOrderVerifyPath</key>
+		<string>/main/fuqNotify</string>
+		<key>zd32_rcpVerifySignInWithAppleId</key>
+		<string>/main/pgLogin</string>
+		<key>zd32_rcpGetUserInfoPath</key>
+		<string>/main/yhInfo</string>
+		<key>zd32_rcpSendUpgradeVerifyCodePath</key>
+		<string>/main/fssjCode</string>
+		<key>zd32_rcpAccountUpgradePath</key>
+		<string>/main/zhUpgrade</string>
+		<key>zd32_rcpModifyPwdPath</key>
+		<string>/main/xgUserPassword</string>
+		<key>zd32_rcpGetAllPresentInfoPath</key>
+		<string>/main/sylwInfo</string>
+		<key>zd32_rcpGetPresentInfoPath</key>
+		<string>/main/hqlw</string>
+		<key>zd32_rcpMyPresentInfoPath</key>
+		<string>/main/wdlwInfo</string>
+		<key>zd32_rcpServiceInfoPath</key>
+		<string>/main/kfInfo</string>
+		<key>zd32_rcpChongDataPath</key>
+		<string>/main/orderList</string>
+		<key>zd32_rcpNewsInfoPath</key>
+		<string>/main/banner</string>
+		<key>zd32_rcpFinishNewTask</key>
+		<string>/main/newbieTask</string>
+		<key>zd32_rcpObtainCouponList</key>
+		<string>/main/couponList</string>
+		<key>zd32_rcpSaveUserCoupon</key>
+		<string>/main/saveUserCoupon</string>
+		<key>zd32_rcpTaskList</key>
+		<string>/main/taskList</string>
+		<key>zd32_rcpCoinDetail</key>
+		<string>/main/coinDetail</string>
+		<key>zd32_rcpObtainTelCode</key>
+		<string>/main/sendMobileCode</string>
+		<key>zd32_rcpTelRegister</key>
+		<string>/main/mobileReg</string>
+		<key>zd32_rcpTelLogin</key>
+		<string>/main/mobileLogin</string>
+		<key>zd32_rcpUserSign</key>
+		<string>/main/signIn</string>
+		<key>zd32_rcpObtainUserRole</key>
+		<string>/main/roleInfo</string>
+		<key>zd32_rcpChangePresent</key>
+		<string>/main/exchangeGift</string>
+		<key>zd32_rcpRegMobileCode</key>
+		<string>/main/sendRegMobileCode</string>
+		<key>zd32_rcpRegBindTel</key>
+		<string>/main/bindMobile</string>
+		<key>zd32_rcpMemberLk</key>
+		<string>/web/vip</string>
+		<key>zd32_rcpResetTelPwd</key>
+		<string>/main/modifyMobilePasswd</string>
+		<key>zd32_rcpAccTelUpgrade</key>
+		<string>/main/accountMobileUpgrade</string>
+		<key>zd32_rcpTiePresent</key>
+		<string>/main/bindMobileGift</string>
+		<key>zd32_rcpGetGood</key>
+		<string>/main/pointGoodsType</string>
+		<key>zd32_rcpGoodList</key>
+		<string>/main/pointGoodsList</string>
+		<key>zd32_rcpDelAcc</key>
+		<string>/main/cancelAccount</string>
+		<key>zd32_rcpMyLoginFace</key>
+		<string>/main/openLoginInterface</string>
+	</dict>
+	<key>zd32_pathparams_key</key>
+	<dict>
+		<key>zd32_ckeyData</key>
+		<string>data</string>
+		<key>zd32_ckeyRA</key>
+		<string>ra</string>
+		<key>zd32_ckeyPlatform</key>
+		<string>pf</string>
+		<key>zd32_ckeyGameId</key>
+		<string>g</string>
+		<key>zd32_ckeyUsername</key>
+		<string>un</string>
+		<key>zd32_ckeyEamil</key>
+		<string>e</string>
+		<key>zd32_ckeyDeviceNO</key>
+		<string>dn</string>
+		<key>zd32_ckeyChannel</key>
+		<string>cu</string>
+		<key>zd32_ckeySubChannel</key>
+		<string>sid</string>
+		<key>zd32_ckeyDeviceIDFA</key>
+		<string>i</string>
+		<key>zd32_ckeyDeviceType</key>
+		<string>mt</string>
+		<key>zd32_ckeyDeviceNetwork</key>
+		<string>nw</string>
+		<key>zd32_ckeyDeviceModelProvider</key>
+		<string>no</string>
+		<key>zd32_ckeyAppVersion</key>
+		<string>gv</string>
+		<key>zd32_ckeyPassword</key>
+		<string>pw</string>
+		<key>zd32_ckeyTimeStamp</key>
+		<string>ts</string>
+		<key>zd32_ckeySDKVersion</key>
+		<string>v</string>
+		<key>zd32_ckeySign</key>
+		<string>sn</string>
+		<key>zd32_ckeyUId</key>
+		<string>ui</string>
+		<key>zd32_ckeyToken</key>
+		<string>t</string>
+		<key>zd32_ckeyRefreshToken</key>
+		<string>at</string>
+		<key>zd32_ckeyAccountCode</key>
+		<string>ac</string>
+		<key>zd32_ckeyNewPwd</key>
+		<string>np</string>
+		<key>zd32_ckeyReNewPwd</key>
+		<string>rnp</string>
+		<key>zd32_ckeyCpServiceID</key>
+		<string>ps</string>
+		<key>zd32_ckeyCpServiceName</key>
+		<string>pn</string>
+		<key>zd32_ckeyCpRoleId</key>
+		<string>cr</string>
+		<key>zd32_ckeyCpRoleName</key>
+		<string>rn</string>
+		<key>zd32_ckeyServiceID</key>
+		<string>si</string>
+		<key>zd32_ckeyCpRoleLevel</key>
+		<string>rl</string>
+		<key>zd32_ckeyRoleID</key>
+		<string>ri</string>
+		<key>zd32_ckeyCpOrderNum</key>
+		<string>co</string>
+		<key>zd32_ckeyPaType</key>
+		<string>pt</string>
+		<key>zd32_ckeyPaProductID</key>
+		<string>pi</string>
+		<key>zd32_ckeyGameMoney</key>
+		<string>gm</string>
+		<key>zd32_ckeyProductName</key>
+		<string>gp</string>
+		<key>zd32_ckeyPaExtra</key>
+		<string>ge</string>
+		<key>zd32_ckeyRealPa</key>
+		<string>pa</string>
+		<key>zd32_ckeyCurrencyty</key>
+		<string>u</string>
+		<key>zd32_ckeyProof</key>
+		<string>rp</string>
+		<key>zd32_ckeyOrderNum</key>
+		<string>so</string>
+		<key>zd32_ckeyAppleOrderNum</key>
+		<string>ao</string>
+		<key>zd32_ckeySessionID</key>
+		<string>ssid</string>
+		<key>zd32_ckeyThirdPlatform</key>
+		<string>tp</string>
+		<key>zd32_ckeyThirdAccount</key>
+		<string>ta</string>
+		<key>zd32_ckeySystemVersion</key>
+		<string>sysv</string>
+		<key>zd32_ckeyAdjustDeviceID</key>
+		<string>adjustid</string>
+		<key>zd32_ckeyAppleAuthorizationCode</key>
+		<string>aac</string>
+		<key>zd32_ckeyAppleIdentityToken</key>
+		<string>tat</string>
+		<key>zd32_ckeyPresentId</key>
+		<string>gi</string>
+		<key>zd32_ckeyFlags</key>
+		<string>flag</string>
+		<key>zd32_ckeyTel</key>
+		<string>m</string>
+		<key>zd32_ckeyPlaform</key>
+		<string>pid</string>
+		<key>zd32_ckeyListType</key>
+		<string>lt</string>
+		<key>zd32_ckeyCouponId</key>
+		<string>ci</string>
+		<key>zd32_ckeyTelDist</key>
+		<string>cc</string>
+		<key>zd32_ckeyTelUt</key>
+		<string>ut</string>
+		<key>zd32_ckeyGoodType</key>
+		<string>gt</string>
+		<key>zd32_ckeyRegType</key>
+		<string>rt</string>
+		<key>zd32_ckeyIsIdfa</key>
+		<string>it</string>
+	</dict>
+	<key>zd32_localStr</key>
+	<dict>
+		<key>MUUQYKey_Login_Text</key>
+		<string>Đăng nhập</string>
+		<key>MUUQYKey_Logout_Text</key>
+		<string>Đăng xuất</string>
+		<key>MUUQYKey_deletet_Text </key>
+		<string>Xóa tài khoản
+
+Xóa tài khoản
+</string>
+		<key>MUUQYKey_Register_Text</key>
+		<string>Đăng ký</string>
+		<key>MUUQYKey_ConfirmRegister_Text</key>
+		<string>Xác nhận đăng ký</string>
+		<key>MUUQYKey_FBLogin_Text</key>
+		<string>Đăng ký with FaceBook</string>
+		<key>MUUQYKey_Facebook_Text</key>
+		<string>Facebook</string>
+		<key>MUUQYKey_AccountRegister_Text</key>
+		<string>Đăng ký</string>
+		<key>MUUQYKey_AccountLogin_Text</key>
+		<string>Đăng nhập</string>
+		<key>MUUQYKey_QuickLogin_Text</key>
+		<string>Vào Ngay</string>
+		<key>MUUQYKey_LoginProtocol_Pre_Text</key>
+		<string>Chọn 1 trong 3 cách đăng nhập và đồng ý </string>
+		<key>MUUQYKey_LoginProtocol_Text</key>
+		<string>&lt;Điều khoản&gt;</string>
+		<key>MUUQYKey_OtherWays_Text</key>
+		<string>Cách khác</string>
+		<key>MUUQYKey_RegisterProtocol_Text</key>
+		<string>Đồng ý các điều khoản sử dụng</string>
+		<key>MUUQYKey_RegisterSuccess_Text</key>
+		<string>Đăng ký thành công </string>
+		<key>MUUQYKey_RegisterSuccess_Pre_Tips_Text</key>
+		<string>Chúc mừng tài khoản</string>
+		<key>MUUQYKey_RegisterSuccess_Suf_Tips_Text</key>
+		<string>Đăng ký thành công, Chúc bạn chơi game vui vẻ!</string>
+		<key>MUUQYKey_ForgetPassword_Text</key>
+		<string>Quên mật khẩu?</string>
+		<key>MUUQYKey_ResetPassword_Text</key>
+		<string>Làm mới mật khẩu</string>
+		<key>MUUQYKey_ResetSuccess_Tips_Text</key>
+		<string>Làm mới mật khẩu thành công.</string>
+		<key>MUUQYKey_ModifyPassword_Text</key>
+		<string>Đổi mật khẩu</string>
+		<key>MUUQYKey_ModifySuccess_Tips_Text</key>
+		<string>Đổi mật khẩu thành công.</string>
+		<key>MUUQYKey_BindEmail_Text</key>
+		<string>Email</string>
+		<key>MUUQYKey_EmailBind_Text</key>
+		<string>Email kích hoạt</string>
+		<key>MUUQYKey_BindSuccess_Tips_Text</key>
+		<string>Kích hoạt Email thành công.</string>
+		<key>MUUQYKey_BindEmail_Tips_Text</key>
+		<string>Email đã kích hoạt không thể thay đổi!</string>
+		<key>MUUQYKey_Email_Text</key>
+		<string>Email</string>
+		<key>MUUQYKey_AccountNumber_Text</key>
+		<string>Tài khoản</string>
+		<key>MUUQYKey_Account_Text</key>
+		<string>Tài khoản</string>
+		<key>MUUQYKey_Account_Short_Text</key>
+		<string>TK</string>
+		<key>MUUQYKey_Password_Text</key>
+		<string>Mật khẩu</string>
+		<key>MUUQYKey_OldPassword_Text</key>
+		<string>Pass cũ</string>
+		<key>MUUQYKey_NewPassword_Text</key>
+		<string>Pass mới</string>
+		<key>MUUQYKey_ReNewPassword_Text</key>
+		<string>Nhập lại Pass</string>
+		<key>MUUQYKey_VerifyCode_Text</key>
+		<string>Mã KH</string>
+		<key>MUUQYKey_SendVCSuccess_Tips_Text</key>
+		<string>Mã kích hoạt đã gửi tới Email.</string>
+		<key>MUUQYKey_CustomerService_Text</key>
+		<string>CSKH</string>
+		<key>MUUQYKey_QuickCheckPurchase_Text</key>
+		<string>Nạp</string>
+		<key>MUUQYKey_CustomerServiceMail_Text</key>
+		<string>Mail CSKH</string>
+		<key>MUUQYKey_CustomerServiceContact_Text</key>
+		<string>Liên hệ CSKH</string>
+		<key>MUUQYKey_Feedback_Text</key>
+		<string>Gửi hỗ trợ</string>
+		<key>MUUQYKey_PresentCollection_Text</key>
+		<string>Nhận lễ bao</string>
+		<key>MUUQYKey_AllPresent_Text</key>
+		<string>Toàn bộ lễ bao</string>
+		<key>MUUQYKey_MyPresent_Text</key>
+		<string>Lễ bao của tôi</string>
+		<key>MUUQYKey_PresentName_Text</key>
+		<string>Tên lễ bao</string>
+		<key>MUUQYKey_PresentContent_Text</key>
+		<string>Nội dung lễ bao</string>
+		<key>MUUQYKey_ExpirationDate_Text</key>
+		<string>Thời gian hết hạn</string>
+		<key>MUUQYKey_Deadline_Text</key>
+		<string>Thời gian nhận</string>
+		<key>MUUQYKey_TermOfValidity_Text</key>
+		<string>Có hiệu lực</string>
+		<key>MUUQYKey_Surplus_Text</key>
+		<string>Còn dư</string>
+		<key>MUUQYKey_GetPresent_Text</key>
+		<string>Nhận</string>
+		<key>MUUQYKey_HasGetPresent_Text</key>
+		<string>Đã nhận</string>
+		<key>MUUQYKey_PresentNum_Text</key>
+		<string>Mã lễ bao</string>
+		<key>MUUQYKey_PresentLBM_Text</key>
+		<string>PresentCode</string>
+		<key>MUUQYKey_Longpress2Copy_Text</key>
+		<string>Nhấn để copy</string>
+		<key>MUUQYKey_GetCondition_Text</key>
+		<string>Điều kiện nhận</string>
+		<key>MUUQYKey_CopyPresentNumSuccess_Tips_Text</key>
+		<string>Copy mã lễ bao thành công!</string>
+		<key>MUUQYKey_GetPresentSuccess_Pre_Tips_Text</key>
+		<string>Chúc mừng bạn đã nhận thành công </string>
+		<key>MUUQYKey_GetPresentSuccess_Suf_Tips_Text</key>
+		<string> lễ bao, Vào game sử dụng, Vật phẩm sẽ gửi qua thư ingame, Hãy chú ý!</string>
+		<key>MUUQYKey_GetPresentSuccess_Pre_Text</key>
+		<string>Bạn còn có thể </string>
+		<key>MUUQYKey_GetPresentSuccess_Suf_Text</key>
+		<string> kiểm tra</string>
+		<key>MUUQYKey_PersonCenter_Text</key>
+		<string>Cá nhân</string>
+		<key>MUUQYKey_AccountLevel_Text</key>
+		<string>Level</string>
+		<key>MUUQYKey_AccountIntegral_Text</key>
+		<string>Điểm</string>
+		<key>MUUQYKey_AccountNoBind_Text</key>
+		<string>Không</string>
+		<key>MUUQYKey_AccountUpgrade_Text</key>
+		<string>Thăng cấp tài khoản</string>
+		<key>MUUQYKey_AccountUpgrade_Tips_Text</key>
+		<string>Sau khi thành công, Có thể sử dụng Email và pass mới để đăng nhập!</string>
+		<key>MUUQYKey_UpgradeSuccess_Tips_Text</key>
+		<string>Chúc mừng đã thăng cấp, Bạn có thể dùng Email để lấy lại mật khẩu.</string>
+		<key>MUUQYKey_YourMuuAccountNum_Text</key>
+		<string>Tài khoản là</string>
+		<key>MUUQYKey_GuestAccount_Text</key>
+		<string>Tài khoản đăng nhập nhanh</string>
+		<key>MUUQYKey_GuestAccount_Tips_Text</key>
+		<string>Người chơi thân mến, Trong trạng thái đăng nhập nhanh, không thể bảo đảm data an toàn, Hãy nhanh chóng thăng cấp tài khoản thành: Tài Khoản Mocgame.</string>
+		<key>MUUQYKey_RefuseUpgrade_Text</key>
+		<string>Cự tuyệt</string>
+		<key>MUUQYKey_UpdateAtOnce_Text</key>
+		<string>Nâng cấp</string>
+		<key>MUUQYKey_SendButton_Text</key>
+		<string>Gửi</string>
+		<key>MUUQYKey_CancelButton_Text</key>
+		<string>Hủy bỏ</string>
+		<key>MUUQYKey_ConfirmButton_Text</key>
+		<string>Xác nhận</string>
+		<key>MUUQYKey_CopyButton_Text</key>
+		<string>Copy</string>
+		<key>MUUQYKey_TipsTitle_Text</key>
+		<string>Tips</string>
+		<key>MUUQYKey_AccountNum_Placeholder_Text</key>
+		<string>Tài khoản</string>
+		<key>MUUQYKey_Email_Placeholder_Text</key>
+		<string>Nhập Email kích hoạt</string>
+		<key>MUUQYKey_BindEmail_Placeholder_Text</key>
+		<string>Nhập Email cần xác nhận</string>
+		<key>MUUQYKey_Password_Placeholder_Text</key>
+		<string>Mật khẩu</string>
+		<key>MUUQYKey_OldPassword_Placeholder_Text</key>
+		<string>Nhập mật khẩu cũ</string>
+		<key>MUUQYKey_NewPassword_Placeholder_Text</key>
+		<string>Nhập mật khẩu mới</string>
+		<key>MUUQYKey_NewPasswordAgain_Placeholder_Text</key>
+		<string>Nhập lại mật khẩu mới</string>
+		<key>MUUQYKey_VerifyCode_Placeholder_Text</key>
+		<string>Nhập mã kiểm tra</string>
+		<key>MUUQYKey_AccountNum_Miss_Alert_Text</key>
+		<string>Hãy nhập tài khoản.</string>
+		<key>MUUQYKey_Email_Miss_Alert_Text</key>
+		<string>Hãy nhập Email kích hoạt.</string>
+		<key>MUUQYKey_BindEmail_Miss_Alert_Text</key>
+		<string>Hãy nhập Email kích hoạt.</string>
+		<key>MUUQYKey_Email_FormatError_Alert_Text</key>
+		<string>Hãy nhập định dạng mail chính xác.</string>
+		<key>MUUQYKey_Password_Miss_Alert_Text</key>
+		<string>Hãy nhập mật khẩu.</string>
+		<key>MUUQYKey_Password_FormatError_Alert_Text</key>
+		<string>Mật khẩu cần bao gồm chữ cái và số.</string>
+		<key>MUUQYKey_Password_LengthError_Alert_Text</key>
+		<string>Độ dài yêu cầu 6-20 ký tự.</string>
+		<key>MUUQYKey_Password_NewOldSame_Alert_Text</key>
+		<string>Mật khẩu cũ và mới giống nhau.</string>
+		<key>MUUQYKey_Password_2EnterNoMatch_Alert_Text</key>
+		<string>Mật khẩu mới không giống nhau.</string>
+		<key>MUUQYKey_VerifyCode_Miss_Alert_Text</key>
+		<string>Hãy nhập mã kiểm tra.</string>
+		<key>MUUQYKey_Logout_Alert_Text</key>
+		<string>Bạn có muốn đăng xuất không?</string>
+		<key>MUUQYKey_Https_NetworkError_Alert_Text</key>
+		<string>Không thể kết nối tới mạng.</string>
+		<key>MUUQYKey_Https_ServerError_Alert_Text</key>
+		<string>Lỗi máy chủ, hãy liên lạc quản trị.</string>
+		<key>MUUQYKey_SignInWithApple_Text</key>
+		<string>Sign in with Apple</string>
+		<key>MUUQYKey_FBLoginError_Alert_Text</key>
+		<string>FB login lỗi.</string>
+		<key>MUUQYKey_FBLoginCancel_Alert_Text</key>
+		<string>Hủy login FB.</string>
+		<key>MUUQYKey_CannotMakePurchase_Alert_Text</key>
+		<string>Trên thiết bị không có app để tiến hành nạp.</string>
+		<key>MUUQYKey_NoProduceCanPurchase_Alert_Text</key>
+		<string>Không có nội dung mua trên app.</string>
+		<key>MUUQYKey_ProductInvalidOrNotExist_Pre_Text</key>
+		<string>ID:</string>
+		<key>MUUQYKey_ProductInvalidOrNotExist_Suf_Text</key>
+		<string> không tồn tại hoặc lỗi.</string>
+		<key>MUUQYKey_GetChOrderNoFail_Alert_Text</key>
+		<string>Tạo hóa đơn thất bại, mã hóa đơn trống!</string>
+		<key>MUUQYKey_ChOrderNoIsNull_Alert_Text</key>
+		<string>Mã giao dịch là trống, kiểm tra Thất bại!</string>
+		<key>MUUQYKey_AuthorizeCanceled_Alert_Text</key>
+		<string>Người dùng hủy quyền hạn.</string>
+		<key>MUUQYKey_AuthorizeFailed_Alert_Text</key>
+		<string>Xin cấp quyền hạn thất bại.</string>
+		<key>MUUQYKey_AuthorizInvalidResponse_Alert_Text</key>
+		<string>Xin cấp quyền hạn không tác dụng.</string>
+		<key>MUUQYKey_AuthorizeNotHandled_Alert_Text</key>
+		<string>không thể xử lý cấp quyền hạn.</string>
+		<key>MUUQYKey_AuthorizeUnknownError_Alert_Text</key>
+		<string>Xin cấp quyền hạn thất bại, Không rõ nguyên nhân.</string>
+		<key>MUUQYKey_ConfigEmailAccount_Tips_Text</key>
+		<string>Bạn chưa thiết lập Mail, Có muốn đến thiết lập?</string>
+		<key>MUUQYKey_SendFeedbackEmailSuccess_Tips_Text</key>
+		<string>Gửi thư phản ánh thành công.</string>
+		<key>MUUQYKey_SendFeedbackEmailFailure_Tips_Text</key>
+		<string>Gửi thư phản ánh thất bại.</string>
+		<key>MUUQYKey_Huiyuan</key>
+		<string>Hội viên</string>
+		<key>MUUQYKey_personAcc</key>
+		<string>Tài khoản</string>
+		<key>MUUQYKey_personCount</key>
+		<string>Tích điểm</string>
+		<key>MUUQYKey_MineCount</key>
+		<string>Điểm của tôi</string>
+		<key>MUUQYKey_chongCord</key>
+		<string>Lịch sử nạp</string>
+		<key>MUUQYKey_chongTime</key>
+		<string>Thời gian nạp</string>
+		<key>MUUQYKey_chongNum</key>
+		<string>Mã hoá đơn</string>
+		<key>MUUQYKey_chongMon</key>
+		<string>Số tiền</string>
+		<key>MUUQYKey_chongStatus</key>
+		<string>Trạng thái</string>
+		<key>MUUQYKey_lastNew</key>
+		<string>Tin mới nhất</string>
+		<key>MUUQYKey_signUp</key>
+		<string>Ký danh</string>
+		<key>MUUQYKey_hasSign</key>
+		<string>Đã ký danh</string>
+		<key>MUUQYKey_OffCount</key>
+		<string>Phiếu ưu đãi</string>
+		<key>MUUQYKey_taskCenter</key>
+		<string>Trung tâm nhiệm vụ</string>
+		<key>MUUQYKey_userAcc</key>
+		<string>Tài khoản của tôi</string>
+		<key>MUUQYKey_canObtain</key>
+		<string>Có thể nhận</string>
+		<key>MUUQYKey_canUse</key>
+		<string>Có thể dùng</string>
+		<key>MUUQYKey_nowObtain</key>
+		<string>Nhận</string>
+		<key>MUUQYKey_nowUse</key>
+		<string>Dùng</string>
+		<key>MUUQYKey_quietNotice</key>
+		<string>Đăng xuất tài khoản hiện tại?</string>
+		<key>MUUQYKey_nowQuiet</key>
+		<string>Đăng xuất</string>
+		<key>MUUQYKey_nowCancel</key>
+		<string>Hủy</string>
+		<key>MUUQYKey_deskRecord</key>
+		<string>Lịch sử tiền nền tảng</string>
+		<key>MUUQYKey_nowData</key>
+		<string>Thời gian</string>
+		<key>MUUQYKey_nowMuch</key>
+		<string>Hạn mức</string>
+		<key>MUUQYKey_nowChan</key>
+		<string>Kênh</string>
+		<key>MUUQYKey_nowGoen</key>
+		<string>Đi</string>
+		<key>MUUQYKey_userDt</key>
+		<string>Thông tin cá nhân</string>
+		<key>MUUQYKey_revisePsd</key>
+		<string>Sửa mật khẩu</string>
+		<key>MUUQYKey_userUp</key>
+		<string>Nâng cấp TK</string>
+		<key>MUUQYKey_tiMail</key>
+		<string>Liên kết mail</string>
+		<key>MUUQYKey_tiTel</key>
+		<string>Liên kết điện thoại</string>
+		<key>MUUQYKey_pleaseTel</key>
+		<string>Vui lòng nhập Điện thoại</string>
+		<key>MUUQYKey_pleaseVerify</key>
+		<string>Vui lòng nhập mã xác minh</string>
+		<key>MUUQYKey_rightTel</key>
+		<string>Vui lòng nhập Điện thoại chính xác</string>
+		<key>MUUQYKey_nowDist</key>
+		<string>84</string>
+		<key>MUUQYKey_BindTel_Tips_Text</key>
+		<string>Điện thoại đã kích hoạt không thể thay đổi!</string>
+		<key>MUUQYKey_WordTel</key>
+		<string>Điện thoại</string>
+		<key>MUUQYKey_expWord</key>
+		<string>EXP cấp:</string>
+		<key>MUUQYKey_tiePresentSuccess</key>
+		<string>Quà giám định thành công</string>
+		<key>MUUQYKey_vipRoleObtainPresent</key>
+		<string>Nhận thành công</string>
+		<key>MUUQYKey_countShip</key>
+		<string>Tiệm Điểm</string>
+		<key>MUUQYKey_EmailFastLogin</key>
+		<string>Đăng nhập tài khoản</string>
+		<key>MUUQYKey_SuperLogin</key>
+		<string>Đăng nhập nhanh</string>
+		<key>MUUQYKey_AccDel</key>
+		<string>Xoá tài khoản</string>
+		<key>MUUQYKey_isAccDel</key>
+		<string>Có xoá tài khoản không</string>
+		<key>MUUQYKey_successAccDel</key>
+		<string>Xoá tài khoản thành công</string>
+		<key>MUUQYKey_BindTelSuccess_Tips_Text</key>
+		<string>L.kết Đ.Thoại thành công</string>
+		<key>MUUQYKey_couponFull</key>
+		<string>Đầy</string>
+		<key>MUUQYKey_couponSong</key>
+		<string>Tặng</string>
+		<key>MUUQYKey_couponReduce</key>
+		<string>Giảm</string>
+		<key>MUUQYKey_NoticeName</key>
+		<string>Thông báo</string>
+		<key>MUUQYKey_VMember</key>
+		<string>VIP</string>
+		<key>MUUQYKey_MainIndex</key>
+		<string>Trang đầu</string>
+		<key>MUUQYKey_AccSet</key>
+		<string>Tài Khoản Tôi</string>
+		<key>MUUQYKey_lesRest</key>
+		<string>gói dư:</string>
+		<key>MUUQYKey_lesEndT</key>
+		<string>Thời gian nhận:</string>
+		<key>MUUQYKey_getles</key>
+		<string>Có xác định nhận?</string>
+	</dict>
+</dict>
+</plist>
